@@ -13,7 +13,8 @@ section.repository-list{
     ul{
         list-style: none;
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
+
 
         li{
             display: flex;
@@ -24,9 +25,7 @@ section.repository-list{
             background-color: #ad8cfa;
             width: 20%;
             padding: 10px;
-            & + li{
-                margin-top: 20px;
-            }
+            margin: 20px;
 
             strong{
                 font-size:24px;
