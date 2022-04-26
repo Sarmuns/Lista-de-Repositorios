@@ -1,22 +1,36 @@
 section.repository-list{
     margin: 40px;
 
-    h1{
+    header{
         margin-bottom: 16px;
         display: flex;
         text-align: center;
         align-self: center;
         justify-content: center;
+        font-size: 30px;
     }
 
     ul{
         list-style: none;
+        display: flex;
+        flex-direction: column;
 
         li{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            align-self: left;
+            justify-content: left;
+            background-color: #ad8cfa;
+            width: 20%;
+            padding: 10px;
             & + li{
                 margin-top: 20px;
             }
 
+            strong{
+                font-size:24px;
+            }
             p{
                 font-size: 14px;
                 color: #444;
