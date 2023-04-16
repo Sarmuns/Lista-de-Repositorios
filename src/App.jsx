@@ -3,9 +3,18 @@ import './styles/globalStyle.scss'
 
 
 function App() {
-  return <div>
-    <RepositoryList />
-  </div>
-}
+
+
+
+
+
+    return (
+      <div>
+
+        <RepositoryList />
+      </div>
+    )
+  }
+
 
 export default App;

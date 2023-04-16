@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 export function RepositoryItem(props){
 
 
@@ -11,7 +9,7 @@ export function RepositoryItem(props){
         <strong>{props.repo.name} &#128142;</strong>
         <p>{props.repo.description ?? 'Repositório sem descrição'}</p>
 
-        <a type="button" target= "_blank" href={props.repo.html_url}>
+        <a type="button" target= "#" href={props.repo.html_url}>
             Acessar Repo
         </a>
     </li>
